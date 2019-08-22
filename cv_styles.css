@@ -1,0 +1,22 @@
+.cv_home{
+	background: black;
+	margin-left: 4.5vw;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+#cv_desc{
+	color: white;
+	margin-left:32vw;
+	margin-top:2vh;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 3vw;
+}
+
+#the_cv{
+	margin-top: 12vh;
+	height:225vh;
+	width:85%;
+	margin-left:6vw;
+	position:absolute;
+}

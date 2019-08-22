@@ -1,0 +1,823 @@
+/* Meidum sized phones and other devices (phones, 600px and down) */
+@media all and (max-width: 600px) and (min-width: 414px) {
+
+.profile_pic {
+    border-radius:50%;
+    width:20vw;
+    margin-left:70vw;
+    margin-top:7vh;
+    margin-bottom: 30vh;
+  	visibility: hidden;
+}
+
+.profile_pic1 {
+   border-radius:50%;
+   width:20vw;
+   position:absolute;
+   margin-top:-55vh;
+   margin-left:70vw;
+}
+
+.div1{
+	background-image: url("images/abc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: -6.5vw;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:62vh;
+	min-height:62vh;
+	width:100vw;
+	height:62vh;
+	overflow: hidden;
+}
+
+#name{
+	color: white;
+	margin-top: -10vh;
+	font-family:'Allura';
+	position:absolute;
+	font-size: 7.5vw;
+	opacity:1;
+	font-style: bold;
+	margin-left: 2vw;
+}
+
+#downarrow{
+	position:absolute;
+	margin-top: -12vh;
+	margin-left:19vw;
+	height:3.5vh;
+	width:5vw;
+	color:white;
+}
+
+#snow1{
+	opacity:0.3;
+	position:absolute;
+	width: 65vw;
+	max-width: 65vw;
+	min-width: 65vw;
+	height:79vh;
+	max-height:59vh;
+	min-height:59vh;
+	margin-left:-6.5vw;
+	margin-top:-1.7vh;
+}
+
+#snow2{
+	opacity:0.3;
+	position:absolute;
+	width: 65vw;
+	max-width: 65vw;
+	min-width: 65vw;
+	height:59vh;
+	max-height:59vh;
+	min-height:59vh;
+	margin-left:22vw;
+	margin-top:-1.7vh;
+}
+
+#quote1a{
+	margin-top: -37.5vh;
+	font-size: 3.6vw;
+	position:absolute;
+	font-family: 'Allura';
+	margin-left: -4vw;
+	animation-iteration-count: infinite;
+}
+
+#strip{
+	opacity:0.4;
+	background: black;
+	position: absolute;
+	height: 63.5vh;
+	max-height: 63.5vh;
+	min-height: 63.5vh;
+	margin-top: -61.65vh;
+	margin-left:-6.5vw;
+	width:100vw;
+	max-width:100vw;
+	min-width:100vw;
+	/*cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur121.cur),auto;*/
+}
+
+#strip2{
+	opacity:0.6;
+	background: black;
+	position: absolute;
+	height:14vh;
+	margin-top: -14vh;
+	margin-left:-6.5vw;
+	width:100vw;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur121.cur),auto;
+}
+
+.quote {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 6.5s steps(70, end),
+    step-end infinite;
+}
+
+
+.aboutMeDivPh{
+	background: white;
+	margin-left: -6.5vw;
+	margin-top: 62vh;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:70vh;
+	min-height:70vh;
+	width:100vw;
+	height:70vh;
+	position: absolute;
+	overflow: hidden;
+}
+
+#aboutAngzPh{	
+	color: black;
+	margin-left:38vw;
+	margin-top:2vh;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 3vw;
+	font-style: bold; 
+}
+
+#LIbadgePh{
+	margin-left: 11vw;
+	margin-top:5vh;
+	position: absolute;
+}
+
+#descAboutPh{
+	color: black;
+	margin-top: 16vh;
+	font-family: 'Raleway';
+	position:absolute;
+	margin-left: 5vw;
+	font-size: 1.5vw; 
+
+}
+
+#aboutPara1Ph{
+	font-size: 5vw;
+	margin-top: 25vh;
+}
+
+#aboutPara2Ph{
+	font-size: 3.2vw;
+}
+
+#aboutPara3Ph{
+	font-size: 3.2vw;
+	margin-right: 10vw;
+}
+
+.readAboutMorePh{
+	font-size: 2.5vw;
+	margin-top: 66vh;
+	margin-left: 65vw;
+	padding: 5px;
+}
+
+.parallax{
+	background-image: url("images/resumepic.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-top: 132vh;
+	margin-left: -6.5vw;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:62vh;
+	min-height:62vh;
+	width:100vw;
+	height:62vh;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+#getCvText {
+	color: white;
+	margin-left:8vw;
+	margin-top:-60vh;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 5vw;
+	font-style: bold;
+}
+
+#belowParallax{
+	margin-top:-10vh;
+	margin-left:-6.5vw;
+	height:10vh; 
+	width: 100vw; 
+	background: #000000;
+}
+
+#strip3{
+	height:62vh; 
+	margin-top: -62vh; 
+	margin-left: -6.5vw; 
+	width: 100vw; 
+	background: black; 
+	opacity: 0.4; 
+	position: absolute
+}
+
+#manyResumes{
+	height:30vh;
+	width:80vw; 
+	position: absolute;
+	margin-top: -25vh; 
+	margin-left: 3vw;
+}
+
+#getNowBtn{
+  color: #4d4d4d;
+  margin-left:26vw;
+  margin-top:-28vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style: bold;
+  padding-right: 2%;
+  padding-left:2%; 
+  padding-top:1%; 
+  padding-bottom:1%
+}
+
+#getNowText{
+	font-style: bold;
+}
+
+
+#textGetCv1{
+  color: white;
+  margin-left:-11vw;
+  margin-top:-54vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  margin-right: 50vw;
+}
+
+#textGetCv2{
+  color: white;
+  margin-left:-11vw;
+  margin-top:-51vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  margin-right: 50vw;
+}
+
+#textGetCv3{
+  color: white;
+  margin-left:-11vw;
+  margin-top:-48vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  margin-right: 50vw;
+}
+
+#textGetCv4{
+  color: white;
+  margin-left:39vw;
+  margin-top:-52vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:bold;
+  font-style:italic;
+}
+
+#textGetCv5{
+  color: white;
+  margin-left:45vw;
+  margin-top:-56vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:italic;
+}
+
+#textGetCv6{
+  color: white;
+  margin-left:39vw;
+  margin-top:-47vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:bold;
+  font-style:italic;
+}
+
+#textGetCv7{
+  color: white;
+  margin-left:39vw;
+  margin-top:-44.5vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:bold;
+  font-style:italic;
+}
+
+#textGetCv8{
+  color: white;
+  margin-left:39vw;
+  margin-top:-40vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:bold;
+  font-style:italic;
+}
+
+#textGetCv9{
+ color: white;
+  margin-left:39vw;
+  margin-top:-33vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 3vw;
+  font-style:bold;
+  font-style:italic;
+}
+
+.animationsection {
+	overflow:hidden;
+	background: black;
+	margin-left: -6.5vw;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:62vh;
+	min-height:62vh;
+	width:100vw;
+	height:62vh;
+	position:absolute;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+#career{
+	font-size: 5vw;
+	margin-top:2vh;
+	font-family:'Raleway';
+}
+#view_cv{
+	position: absolute;
+	margin-top: 40vh;
+	margin-left:18vw;
+	font-size: 2.8vw;
+	font-style: bold;
+	font-family: Raleway;
+	padding-right: 7.5%;
+	padding-left:7.5%;
+	padding-top:0.75%;
+	padding-bottom:0.75%;
+}
+
+#view_certificates{
+	position: absolute;
+	margin-top: 40vh;
+	margin-left:50vw;
+	font-size: 2.8vw;
+	font-style: bold;
+	font-family: Raleway;
+	padding-right: 2%;
+	padding-left:2%;
+	padding-top:0.75%;
+	padding-bottom:0.75%;
+}
+
+.boy {
+  display: block;
+  position: absolute;
+}
+
+
+.jonathanPh {
+  width: 37vw;
+  height: 35vh;
+  position: absolute;
+  margin-left: 0vw;
+  margin-top: -2vh;
+}
+
+.harryPh{
+  width: 25vw;
+  height: 20vh;
+  position: absolute;
+  margin-top: -15vh;
+  opacity:1;
+}
+
+.building1Ph {
+  opacity: 0.4;
+  margin-top: 10vh;
+  width: 50vw;
+  height: 30vh;
+  position: absolute;
+}
+
+.building2Ph {
+  margin-left: 20vw;
+  margin-top: 33vh;
+  opacity: 0.3;
+  width: 60vw;
+  height: 30vh;
+  position: absolute;
+}
+
+.lightningPh{
+  opacity: 0.3;
+  margin-left:-10vw;
+  margin-top: -50vh;
+  width: 30vw;
+  height: 80vh;
+  position: absolute;
+}
+.stars{
+  opacity: 0.5;
+  margin-left:30vw;
+  margin-top: -30vh;
+  width: 35vw;
+  height: 14vh;
+  position: absolute;
+}
+
+.logosPh{
+  margin-top: -14vh;
+  margin-left: 15vw;
+  width:70%;
+  height:8vh;
+  position: absolute;
+  opacity:1;
+}
+
+.booksection {
+	overflow:hidden;
+	background: white;
+	margin-top: 0vh;
+	margin-left: -6.5vw;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:62vh;
+	min-height:62vh;
+	width:100vw;
+	height:62vh;
+	position:absolute;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+
+#book_description {
+	color: #4d4d4d;
+	margin-left:25vw;
+	margin-top:4.5vh;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 5vw;
+	font-style: bold; 
+}
+
+#horline{
+	position: absolute;
+	border-bottom: 4px solid #4493F1;
+	width:10vw;
+	height:22vh;
+	margin-left: 45vw;
+	margin-top: -10vh;
+}
+
+
+#about_book{
+	color: #4d4d4d;
+	margin-left:48.7vw;
+	margin-top:17vh;
+	margin-right: 6vw;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 2.8vw;
+}
+
+#about_book_2{
+	color: #4d4d4d;
+	margin-left:48.7vw;
+	margin-top:32vh;
+	margin-right: 6vw;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 2.8vw;
+}
+
+.orderNowPh{
+  color: #4d4d4d;
+  margin-left:48.7vw;
+  margin-top:45vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 2vw;
+  font-style: bold;
+  padding-right: 2%;
+  padding-left:2%; 
+  padding-top:1%; 
+  padding-bottom:1%;
+}
+
+#ordernowText{
+	font-style: bold;
+}
+
+#BuyAtAmazonPh{
+	height:3vh;
+	width:14vw;
+	position: absolute;
+	margin-top: 44.5vh;
+	margin-left: 70vw;
+}
+
+.mediumblogs{
+background: #000000;
+margin-left: -6.5vw;
+margin-top: 62vh;
+max-width:100vw;
+min-width:100vw;
+max-height:124vh;
+min-height:124vh;
+width:93.75vw;
+height:124vh;
+position: absolute;
+overflow: hidden;
+}
+
+#write-ups{
+	color: white;
+	margin-top:2vh;
+	font-family:'Raleway';
+	font-size: 5vw;
+}
+
+#medium_pic1{
+	height:20vh;
+	width:65%;
+	margin-left: 18%;
+}
+
+#medium_pic2{
+	height:20vh;
+	width:65%;
+	margin-left: 18%;
+}
+
+
+.mediumlinks{
+	text-decoration:none;
+	color:black;
+}
+
+.mediumlinks:hover{
+	text-decoration:none;
+	color:black;
+}
+
+
+#title1{
+	font-size:3vw;
+	font-style: bold;
+}
+
+#title2{
+	font-size:3vw;
+	font-style: bold;
+}
+
+.writings{
+	font-family: Raleway;
+	font-size: 3vw;
+	margin-top: 3vh;
+}
+
+.readFull{
+	font-family: Raleway;
+	font-size: 3vw;
+	margin-top: 3vh;
+	color:blue;
+}
+
+#mediumCard1{
+	background:white;
+	width:100%;
+	margin-top: 1vh;
+	height:60vh;
+	overflow: hidden;
+	padding-top:2%;
+}
+#mediumCard2{
+	background:white;
+	width:100%;
+	margin-top: 1vh;
+	height:60vh;
+	overflow: hidden;
+	padding-top:2%;
+}
+
+.readMore{
+  color: #4d4d4d;
+  margin-left:80vw;
+  margin-top: -3.5vh;
+  position: absolute;
+  font-family:'Raleway';
+  font-size: 2vw;
+  font-style: bold;
+  padding-right: 2%;
+  padding-left:2%;
+  padding-top:1%; 
+  padding-bottom:1%
+}
+
+#readMoreText{
+	font-style: bold;
+}
+.certificates_home{
+	background: #000000;
+	margin-left: 0vw;
+	max-width:100vw;
+	min-width:100vw;
+	width:100vw;
+	overflow: hidden;
+	position: absolute;
+}
+.certificate_pics{
+	width:100%;
+	height:48vh;
+}
+.cerNames{
+	padding-top: 2vh;
+	padding-bottom: 2vh; 
+	font-size: 3vw;
+}
+
+.cerTopics{
+	color: white;
+	font-family:'Raleway';
+	font-size: 3vw;
+}
+
+.cv_home{
+	background: black;
+	margin-left: -6.5vw;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+#cv_desc{
+	color: white;
+	margin-left:33vw;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 5vw;
+	margin-top: -2vh;
+}
+
+#the_cv{
+	margin-top: 5vh;
+	height:84vh;
+	width:100%;
+	margin-left:6vw;
+	position:absolute;
+}
+
+
+#contactMe{
+	background-image: url("images/contactMeBack.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	overflow:hidden;
+	margin-top: 186vh;
+	margin-left: 0vw;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:62vh;
+	min-height:62vh;
+	width:100vw;
+	height:62vh;
+	position:absolute;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur220.cur),auto;
+}
+
+
+#contactText{
+	color: white;
+	margin-left:38vw;
+	margin-top: 0.5vh;
+	position: absolute;
+	font-family:'Raleway';
+	font-size: 3vw;
+	font-style: bold;
+}
+
+#strip4{
+	height:62vh;
+	width: 100vw;
+	background:black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.arrow-down { 
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 40vh solid black;
+  opacity: 0.6;
+  position:absolute;
+}
+
+#iimMail{
+	color: white;
+	margin-top: 11vh;
+	margin-left: 24vw;
+	position: absolute;
+	font-family:'Allura';
+	font-size: 4vw;
+	font-style: bold;
+}
+
+#gMail{
+	color: white;
+	margin-top: 15vh;
+	margin-left: 34vw;
+	position: absolute;
+	font-family:'Allura';
+	font-size: 4vw;
+	font-style: bold;
+}
+
+
+#linkedin2 {
+	color:white;
+	font-size: 4.25vw;
+	margin-top:56vh;
+	margin-left:38vw;
+	position: absolute;
+}
+
+#fb2 {
+	color:white;
+	margin-top:56vh;
+	font-size: 4vw;
+	margin-left:46vw;
+	position: absolute;
+}
+
+#insta2 {
+	color:white;
+	font-size: 4vw;
+	margin-top:56vh;
+	margin-left:54vw;
+	position: absolute;
+}
+
+#twitter2 {
+	color:white;
+	font-size: 4vw;
+	margin-top:56vh;
+	margin-left:62vw;
+	position: absolute;
+}
+
+#comingSoon{
+	margin-top: 40vh;
+	font-family: 'Raleway';
+	font-size: 3vw;
+}
+
+@-webkit-keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+@-moz-keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+@-ms-keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@-o-keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+}
