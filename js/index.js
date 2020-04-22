@@ -9,6 +9,13 @@ if(_jsPrefix == 'moz') _jsPrefix = 'Moz'
 var _cssPrefix = pre.css;
 var _positions = [
   {
+    name: 'scroll2Home', 
+   	start: {
+    	percent: 0, x: 0.1, y: 0.03
+  	},
+    end: {
+      percent: 0.75, x: 0.03, y: 0.07
+    },
     name: 'jonathan', 
    	start: {
     	percent: 0.45, x: 0.1, y: 0.03
