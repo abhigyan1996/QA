@@ -1,2 +1,2 @@
-# Angz_Test
+# QUARKX ACADEMY
 Test responsive 
